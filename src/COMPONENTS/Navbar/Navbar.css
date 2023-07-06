@@ -1,0 +1,35 @@
+nav{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2) ;
+}
+
+nav svg{
+    width: 25px;
+    height: 25px;
+}
+nav svg:hover{
+    color: var(--col1);
+}
+
+nav .s1{
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+nav img{
+    width: 150px;
+    height: 150px;
+}
+
+nav .searchbar{
+    display: flex;
+    border:none;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+
+
+}

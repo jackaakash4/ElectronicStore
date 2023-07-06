@@ -2,6 +2,7 @@ import './Navbar.css'
 import Dropdown from 'react-bootstrap/Dropdown'
 import Logo from '../../ASSETS/Logo.png'
 import { useState } from 'react'
+import './Navbar.css'
 
 
 
@@ -46,9 +47,32 @@ function Navbar() {
         </div>
 
         <div className="s2">
-          
+        <Dropdown>
+          <Dropdown.Toggle variant="" id="dropdown-basic-catagory">
+            Catagory
+          </Dropdown.Toggle>
+          <Dropdown.Menu>
+            <Dropdown.Item href="#/action-1">Laptop</Dropdown.Item>
+            <Dropdown.Item href="#/action-2">Mobile</Dropdown.Item>
+            <Dropdown.Item href="#/action-3">TV</Dropdown.Item>
+            <Dropdown.Item href="#/action-4">Refrigerator</Dropdown.Item>
+          </Dropdown.Menu>
+        </Dropdown>
+        <a>About Us</a>
+        <a>Contact Us</a>
+        <Dropdown>
+        <Dropdown.Toggle variant="" id="dropdown-basic-more">
+        More
+        </Dropdown.Toggle>
+        <Dropdown.Menu>
+        <Dropdown.Item href="#/action-1">FAQ</Dropdown.Item>
+        <Dropdown.Item href="#/action-2">Privacy Policy</Dropdown.Item>
+        <Dropdown.Item href="#/action-3">Term and Conditions</Dropdown.Item>
+      </Dropdown.Menu>
+        </Dropdown>
         </div>
     </nav>
+    Home
 </div>
   )
 }

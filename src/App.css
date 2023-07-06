@@ -1,0 +1,27 @@
+:root {
+    --col1: #68FE9A;
+    --col2: #24272C;
+    --col3: #FEFAF1;
+    --col4: #060606;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+#dropdown-basic-catagory {
+    outline: none;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+#dropdown-basic-more {
+    outline: none;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+
