@@ -18,7 +18,7 @@ function Navbar() {
           <img src={Logo} alt='logo' className='logo' />
 
           <div className="searchbar">
-            <input type='text' placeholder='Search for products and catagoris' className='search'/>
+            <input type='text' placeholder='Search for products and catagories' className='search'/>
 
             <button>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
