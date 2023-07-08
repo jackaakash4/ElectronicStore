@@ -72,7 +72,6 @@ function Navbar() {
         </Dropdown>
         </div>
     </nav>
-    Home
 </div>
   )
 }
