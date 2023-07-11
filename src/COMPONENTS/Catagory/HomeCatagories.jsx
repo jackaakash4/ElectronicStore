@@ -17,7 +17,7 @@ function HomeCatagories() {
             <div className="container">
                 <img src={img2} alt='img2' />
                 <div className="content">
-                    <h1>SmartPhone</h1>
+                    <h1>Phone</h1>
                     <span>Shop Smart Phone now</span>
                 </div>
             </div>
