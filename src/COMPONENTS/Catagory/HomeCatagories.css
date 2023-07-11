@@ -50,20 +50,20 @@
 
 .homecatagories .container:nth-child(1){
     background-color: #EBECEE;
-    color:var(--col1);
+    color:var(--col2);
 }
 
 .homecatagories .container:nth-child(2){
     background-color: #F4F3F5;
-    color:var(--col1);
+    color:var(--col2);
 }
 .homecatagories .container:nth-child(3){
     background-color: #C9DFF9;
-    color:var(--col1);
+    color:var(--col2);
 }
 .homecatagories .container:nth-child(4){
     background-color: #4793D5;
-    color:var(--col1);
+    color:var(--col2);
 }
 
 
