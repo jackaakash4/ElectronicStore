@@ -90,8 +90,7 @@
 
 }
 
-.product .addbtn svg
-{
+.product .addbtn svg{
     width: 30px;
     height: 30px;
     background-color: white;
@@ -102,8 +101,7 @@
     transition: all 0.5s ease;
 }
 
-.product .addbtn svg:hover
-{
+.product .addbtn svg:hover{
     background-color: var(--col2);
     color: white;
     transform: scale(1.2);
