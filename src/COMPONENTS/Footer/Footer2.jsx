@@ -5,7 +5,7 @@ function Footer2() {
   return (
     <div className='footer2'>
         <div className="footerin1">
-            
+            //today i can't be able to contribute
         </div>
 
         <div className="footerin2">
