@@ -5,7 +5,11 @@ function Footer2() {
   return (
     <div className='footer2'>
         <div className="footerin1">
-            //today i can't be able to contribute
+          <div className="f1"></div>
+          <div className="f2"></div>
+          <div className="f2"></div>
+          <div className="f2"></div>
+          <div className="f2"></div>
         </div>
 
         <div className="footerin2">
