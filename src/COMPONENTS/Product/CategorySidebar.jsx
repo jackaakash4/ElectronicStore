@@ -1,61 +1,59 @@
 import React from 'react'
-import {img1, img2, img3, img4} from '../../ASSETS/Image/index'
+import {image1, image2, image3, image4, image5, image6, image7} from '../../ASSETS/Product/index'
 import './CategorySidebar.css'
 
 function CategorySidebar() {
-  const date = [{
+  const data = [{
     id: 1, 
-    categoryimage: img1,
+    categoryimage: image1,
     categoryname: 'Computer',
 
   },
   {
     id: 2, 
-    categoryimage: img2,
+    categoryimage: image2,
     categoryname: 'Phone',
 
   },
   {
     id: 3, 
-    categoryimage: img3,
+    categoryimage: image3,
     categoryname: 'Speaker',
 
   },
   {
     id: 4, 
-    categoryimage: img4,
+    categoryimage: image4,
     categoryname: 'Board',
 
   },
   {
     id: 5, 
-    categoryimage: img1,
-    categoryname: 'Computer',
+    categoryimage: image5,
+    categoryname: 'Console',
 
   },
   {
     id: 6, 
-    categoryimage: img2,
-    categoryname: 'Phone',
+    categoryimage: image6,
+    categoryname: 'Watch',
 
   },
   {
     id: 7, 
-    categoryimage: img3,
-    categoryname: 'Speaker',
-
-  },
-  {
-    id: 8, 
-    categoryimage: img4,
-    categoryname: 'Board',
+    categoryimage: image7,
+    categoryname: 'Refrigerator',
 
   }
+  
 ]
   return (
+    
+      
       <div className="categorysidebar">
+        <h1>Category</h1>
         {
-          date.map((item)=>{
+          data.map((item)=>{
             return(
             <div className='category'>
               <img src={item.categoryimage} alt={item.categoryname} />
@@ -64,6 +62,7 @@ function CategorySidebar() {
           })
         }
       </div>
+    
   )
 }
 

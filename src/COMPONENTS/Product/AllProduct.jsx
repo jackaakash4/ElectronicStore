@@ -1,6 +1,5 @@
 import React from 'react'
 import ProductCard from './ProductCard'
-import {img1, img2, img3, img4} from '../../ASSETS/Image/index'
 import {image1, image2, image3, image4, image5, image6, image7} from '../../ASSETS/Product/index'
 import './AllProduct.css'
 
