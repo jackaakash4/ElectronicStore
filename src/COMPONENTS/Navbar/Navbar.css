@@ -21,6 +21,11 @@ nav .s1{
 
 }
 
+nav .s1{
+    margin-top: -2em;
+    margin-bottom: -2em;
+}
+
 nav img{
     width: 250px;
     height: 150px;
