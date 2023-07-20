@@ -38,6 +38,6 @@
 
 .categorysidebar .category:hover{
     background-color: var(--col1);
-    border: 1px solid var(--col3);
+    border: 1px solid var(--col4);
     color: var(--col4);
 }

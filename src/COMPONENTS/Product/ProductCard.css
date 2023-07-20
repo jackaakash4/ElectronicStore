@@ -8,7 +8,7 @@
     margin: 10px;
     position: relative;
     border-radius: 5px;
-    background-color: #050205;
+    background-color: var(--col4);
     color: var(--col1);
     box-shadow: 0 0 10px var(--col2);
 }
