@@ -6,9 +6,6 @@ function ProductCard({data}) {
   const [show, setShow] = useState(false)
   const [qty, setQty] = useState(1)
   
-  const getproductid = () =>{
-    alert(data.id)
-  }
 
   return (
     <div className='product'>
