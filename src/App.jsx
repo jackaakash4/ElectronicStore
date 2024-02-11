@@ -3,14 +3,20 @@ import {Route, Routes, BrowserRouter} from 'react-router-dom'
 import Home from './PAGES/HomePage/Home'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import ProductPage from './PAGES/Product/ProductPage';
+import ProductPage from './PAGES/Product/ProductPages';
+import Login from './COMPONENTS/Login/Login';
+import { useState } from 'react';
 
 function App() {
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+
+  
   return (
     <BrowserRouter>
     <Routes>
-    <Route path="/" element = {<Home />} />
+    <Route path="/" element = {<Login isLoggedIn={isLoggedIn} />} />
     <Route path="/home" element = {<Home />} />
+    <Route path="/login" element = {<Login />} />
     <Route path='/product/:prodid' 
       element = {<ProductPage />}
     />

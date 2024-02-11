@@ -72,10 +72,9 @@ function ProductPage() {
 
             <div className="c11">
                 <div className="imgset">
-
                 </div>
                 <div className="imgbig">
-
+                    <img src={activeimg} />
                 </div>
 
             </div>

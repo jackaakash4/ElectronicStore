@@ -9,7 +9,7 @@ function Footer2() {
         <div className="footerin1">
           <div className="f1">
             <img src={Logo} />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur rerum eos distinctio commodi, architecto odio ea cum recusandae quibusdam laboriosam quae. Nostrum, deserunt modi.</p>
+            <p>Better, Faster and Cheaper</p>
           </div>
           <div className="f2">
             <h3>About Us</h3>
@@ -34,7 +34,7 @@ function Footer2() {
           </div>
           <div className="f2">
             <h3>Subscribe now</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit maxime enim hic.</p>
+            <p>Unavailable Social Sites</p>
             <div className="inputcontainer">
             <span className="icon1">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
@@ -59,7 +59,7 @@ function Footer2() {
         
 
         <div className="footerin2">
-            <h3>©Copyright 2023 Suvakamana Electronic, Inc. All right reserved</h3>
+            <h3>©Copyright 2023 Electronique, Inc. All right reserved</h3>
         </div>
     </div>
   )
