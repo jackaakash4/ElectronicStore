@@ -59,22 +59,22 @@ function Navbar() {
             Catagory
           </Dropdown.Toggle>
           <Dropdown.Menu>
-            <Dropdown.Item href="#/action-1">Laptop</Dropdown.Item>
-            <Dropdown.Item href="#/action-2">Mobile</Dropdown.Item>
-            <Dropdown.Item href="#/action-3">TV</Dropdown.Item>
-            <Dropdown.Item href="#/action-4">Refrigerator</Dropdown.Item>
+            <Dropdown.Item href="/category">Laptop</Dropdown.Item>
+            <Dropdown.Item href="/category">Mobile</Dropdown.Item>
+            <Dropdown.Item href="/category">TV</Dropdown.Item>
+            <Dropdown.Item href="/category">Refrigerator</Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
-        <a>About Us</a>
-        <a>Contact Us</a>
+        <a href='/category'>About Us</a>
+        <a href='/category'>Contact Us</a>
         <Dropdown>
         <Dropdown.Toggle variant="" id="dropdown-basic-more">
         More
         </Dropdown.Toggle>
         <Dropdown.Menu>
-        <Dropdown.Item href="#/action-1">FAQ</Dropdown.Item>
-        <Dropdown.Item href="#/action-2">Privacy Policy</Dropdown.Item>
-        <Dropdown.Item href="#/action-3">Term and Conditions</Dropdown.Item>
+        <Dropdown.Item href="/category">FAQ</Dropdown.Item>
+        <Dropdown.Item href="/category">Privacy Policy</Dropdown.Item>
+        <Dropdown.Item href="/category">Term and Conditions</Dropdown.Item>
       </Dropdown.Menu>
         </Dropdown>
         </div>

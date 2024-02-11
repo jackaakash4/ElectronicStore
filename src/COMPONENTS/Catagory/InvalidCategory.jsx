@@ -1,8 +1,13 @@
-import React from 'react'
+import React from 'react';
+import './InvalidCategory.css';
+import Navbar from '../Navbar/Navbar';
 
 function InvalidCategory() {
   return (
-    <div>InvalidCategory</div>
+    <>
+    <Navbar />
+    <div className='errorMessage'><b>Under Production</b></div>
+    </>
   )
 }
 
