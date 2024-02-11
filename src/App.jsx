@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 import ProductPage from './PAGES/Product/ProductPages';
 import Login from './COMPONENTS/Login/Login';
 import { useState } from 'react';
+import InvalidCategory from './COMPONENTS/Catagory/InvalidCategory';
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -17,6 +18,7 @@ function App() {
     <Route path="/" element = {<Login isLoggedIn={isLoggedIn} />} />
     <Route path="/home" element = {<Home />} />
     <Route path="/login" element = {<Login />} />
+    <Route path="/category" element= {<InvalidCategory/>} />
     <Route path='/product/:prodid' 
       element = {<ProductPage />}
     />

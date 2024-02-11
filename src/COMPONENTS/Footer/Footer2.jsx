@@ -1,5 +1,4 @@
 import React from 'react'
-import './footer2.css'
 import Logo from '../../ASSETS/Logo.png'
 import './Footer2.css'
 

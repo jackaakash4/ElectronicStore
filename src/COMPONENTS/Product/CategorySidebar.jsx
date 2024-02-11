@@ -1,6 +1,7 @@
 import React from 'react'
 import {image1, image2, image3, image4, image5, image6, image7} from '../../ASSETS/Product/index'
 import './CategorySidebar.css'
+import { useNavigate } from 'react-router-dom'
 
 function CategorySidebar() {
   const data = [{
@@ -47,6 +48,10 @@ function CategorySidebar() {
   }
   
 ]
+let navigate = useNavigate();
+const HandleSubcategory = (e) =>{
+  e?navigate('/category'):navigate('/home');
+}
   return (
     
       
@@ -55,7 +60,7 @@ function CategorySidebar() {
         {
           data.map((item)=>{
             return(
-            <div className='category'>
+            <div className='category' onClick={HandleSubcategory}>
               <img src={item.categoryimage} alt={item.categoryname} />
               <h3>{item.categoryname}</h3>
             </div>)

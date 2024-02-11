@@ -1,14 +1,20 @@
 import React from 'react'
 import './HomeCatagories.css'
 import {img1, img2, img3, img4} from '../../ASSETS/Image/index'
+import { useNavigate } from 'react-router-dom'
 
 
 
 function HomeCatagories() {
+    let navigate = useNavigate();
+
+    const CategoryHandler = (e) =>{
+        e?navigate('/category'):navigate('home');
+    }
   return (
         <div className="homecatagories">
             <div className="container">
-                <img src={img1} alt='img1' />
+                <img src={img1} alt='img1' onClick={CategoryHandler}/>
                 <div className="content">
                     <h1>Computer</h1>
                     <span>Shop computer now</span>
